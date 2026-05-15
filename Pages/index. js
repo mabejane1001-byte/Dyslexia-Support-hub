@@ -1,0 +1,54 @@
+export default function Home() {
+  return (
+    <div style={{ 
+      fontFamily: 'Arial, sans-serif', 
+      padding: '40px', 
+      backgroundColor: '#f0f8ff',
+      minHeight: '100vh',
+      textAlign: 'center'
+    }}>
+      <h1 style={{ color: '#2c3e50', fontSize: '2.5rem' }}>
+        Dyslexia Support Hub
+      </h1>
+      
+      <p style={{ 
+        fontSize: '1.2rem', 
+        color: '#34495e', 
+        maxWidth: '600px', 
+        margin: '20px auto',
+        lineHeight: '1.6'
+      }}>
+        A safe space with tools and resources to help students with dyslexia learn, 
+        read, and succeed at their own pace.
+      </p>
+
+      <div style={{ marginTop: '40px' }}>
+        <a href="/login" style={{
+          display: 'inline-block',
+          padding: '12px 30px',
+          margin: '10px',
+          backgroundColor: '#3498db',
+          color: 'white',
+          textDecoration: 'none',
+          borderRadius: '8px',
+          fontSize: '1.1rem'
+        }}>
+          Login
+        </a>
+        
+        <a href="/dashboard" style={{
+          display: 'inline-block',
+          padding: '12px 30px',
+          margin: '10px',
+          backgroundColor: '#2ecc71',
+          color: 'white',
+          textDecoration: 'none',
+          borderRadius: '8px',
+          fontSize: '1.1rem'
+        }}>
+          Dashboard
+        </a>
+      </div>
+    </div>
+  )
+}
